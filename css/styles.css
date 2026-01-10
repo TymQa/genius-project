@@ -280,6 +280,31 @@ header {
   margin-bottom: 16px;
 }
 
+.slide-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--color-primary-dark);
+  cursor: pointer;
+}
+
+.slide-icon {
+  fill: var(--color-primary-dark);
+}
+
+.slide-btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.slide-btn:hover .slide-icon {
+  fill: var(--color-primary-light);
+}
+
 /* Address */
 .address-link {
   color: var(--color-primary-light);
@@ -293,6 +318,14 @@ header {
 
 .address-copyright {
   font-size: 14px;
+}
+
+.address-social {
+  fill: var(--color-primary-light);
+}
+
+.address-social:hover {
+  fill: var(--color-brand-light);
 }
 
 /* Footer */
